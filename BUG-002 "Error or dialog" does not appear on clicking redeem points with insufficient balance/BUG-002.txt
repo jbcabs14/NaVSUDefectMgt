@@ -1,0 +1,41 @@
+NaVSU v1.0 Functional [Rewards]: "Error or dialog" does not appear on clicking redeem points with insufficient balance
+
+[Summary]
+ Redeem button on rewards screen with insufficient balance does not display any dialog or error message. The redeem button is set as disabled instead.
+
+[Precondition]
+ Software version: v2.1 Beta
+ Software configuration: Reporting module enabled
+ Hardware specifications: Huawei P30
+ Network configuration: Connected to WiFi
+
+[Steps to reproduce]
+ 1. Tap "Redeem rewards" from menu.
+ 2. Tap disabled "Redeem" button.
+
+[Actual results]
+ Nothing happens
+
+[Expected results]
+ Error or dialog appears indicating insufficient points
+
+[Is this Breakage?]
+ No, new implementation
+
+[Previous code tested]
+ ZN.020.001
+
+[Severity: How does this problem impact the customer/user?]
+ 1. Specification issue
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 8. Very often
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ REWU-004
+
+[Impact Sizing (in days)]
+ Less than a day

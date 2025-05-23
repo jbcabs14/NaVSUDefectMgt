@@ -1,10 +1,12 @@
-NaVSU v1.0 Functional [Campus Navigation App]: No 'NO results found' message when search does not match any landmark
+Project Zenith v2.1 Functional [Map and Navigation]: "No results found" dialog or error message not found 
 
 [Summary]
- When a user inputs text that does not match with any name of available landmarks, the message 'results not found' does not show up for the user which leads to confusion for user whether it is due to interconnectivity issues or other reasons.
+ When a user inputs text that does not match with any name of available landmarks, the dialog or 
+ error message "no results found" does not show up for the user which leads to confusion for user 
+ whether it is due to interconnectivity issues or other reasons.
 
 [Precondition]
- Software version: v1.0 Beta
+ Software version: v2.1 Beta
  Software configuration: Reporting module enabled
  Hardware specifications: Huawei P30
  Network configuration: Connected to WiFi
@@ -23,13 +25,13 @@ NaVSU v1.0 Functional [Campus Navigation App]: No 'NO results found' message whe
  No, new implementation
 
 [Previous code tested]
- NV.010.001
+ ZN.020.001
 
 [Severity: How does this problem impact the customer/user?]
- 8. Data loss / Required function is missing
+ 1. Specification issue 
 
 [Likelihood: How often will a customer/user use this feature/function?]
- 8. Very often
+ 8. High
 
 [Repeatability: Is this problem easily reproducible?]
  10. 100% Reproducible
