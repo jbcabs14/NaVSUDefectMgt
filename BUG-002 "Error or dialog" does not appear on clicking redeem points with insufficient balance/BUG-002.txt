@@ -23,7 +23,7 @@ NaVSU v1.0 Functional [Rewards]: "Error or dialog" does not appear on clicking r
  No, new implementation
 
 [Previous code tested]
- ZN.010.002
+ ZN.010.001
 
 [Severity: How does this problem impact the customer/user?]
  1. Specification issue
