@@ -1,42 +1,42 @@
-NaVSU v2.1 Functional [Rewards]: No error or dialog box appears after tapping redeem points with insufficient points
+NaVSU v2.2 Functional [User Details]: User details not showing for adming
 
 [Summary]
- Redeem button on rewards screen with insufficient balance does not display any dialog or error message. The redeem button is set as disabled instead.
+ Selecting a landmark as admin does not show the landmark details such as name, description, coordinates, image, submitter, and timestamps.
 
 [Precondition]
- Software version: v2.1
+ Software version: v2.2
  Software configuration: Reporting module enabled
  Hardware specifications: Huawei P30
  Network configuration: Connected to WiFi
 
 [Steps to reproduce]
- 1. Tap "Redeem rewards" from menu.
- 2. Ensure available points is less than required points for reward.
- 3. Tap disabled "Redeem" button.
+ 1. Log in as admin.
+ 2. Open "Users" tab.
+ 3. Select any User.
 
 [Actual results]
  Nothing happens
 
 [Expected results]
- Error or dialog appears indicating insufficient points
+ Details of the selected user containing email, name, UID, role, and stats is displayed
 
 [Is this Breakage?]
  No, new implementation
 
 [Previous code tested]
- ZN.010.001
+ ZN.020.001
 
 [Severity: How does this problem impact the customer/user?]
- 1. Specification issue
+ 8. Data loss / Required function is missing
 
 [Likelihood: How often will a customer/user use this feature/function?]
- 8. High
+ 2. Low, only special types of users
 
 [Repeatability: Is this problem easily reproducible?]
  10. 100% Reproducible
 
 [Impacted Test Cases]
- REWU-004
+ ADMU-004
 
 [Impact Sizing (in days)]
  Less than a day
