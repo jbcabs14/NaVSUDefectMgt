@@ -1,0 +1,41 @@
+NaVSU v1.0 Functional [Campus Navigation App]: No 'NO results found' message when search does not match any landmark
+
+[Summary]
+ When a user inputs text that does not match with any name of available landmarks, the message 'results not found' does not show up for the user which leads to confusion for user whether it is due to interconnectivity issues or other reasons.
+
+[Precondition]
+ Software version: v1.0 Beta
+ Software configuration: Reporting module enabled
+ Hardware specifications: Huawei P30
+ Network configuration: Connected to WiFi
+
+[Steps to reproduce]
+ 1. Type "pool" in the search bar.
+ 2. Press the "Enter" key on the on-screen keyboard.
+
+[Actual results]
+ The keyboard closes, but no feedback (message or UI change) is shown.
+
+[Expected results]
+ A clear "No results found" message should appear on the screen.
+
+[Is this Breakage?]
+ No, new implementation
+
+[Previous code tested]
+ NV.010.001
+
+[Severity: How does this problem impact the customer/user?]
+ 8. Data loss / Required function is missing
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 8. Very often
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ MAP-006
+
+[Impact Sizing (in days)]
+ Less than a day
