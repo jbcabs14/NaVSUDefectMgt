@@ -6,7 +6,7 @@ Project Zenith v2.1 Functional [Map and Navigation]: "No results found" dialog o
  whether it is due to interconnectivity issues or other reasons.
 
 [Precondition]
- Software version: v2.1 Beta
+ Software version: v2.1
  Software configuration: Reporting module enabled
  Hardware specifications: Huawei P30
  Network configuration: Connected to WiFi

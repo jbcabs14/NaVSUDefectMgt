@@ -1,11 +1,11 @@
-NaVSU v1.0 Functional [Offline Navigation]: No alerts shown for loss of network connectivity.
+NaVSU v2.1 Functional [Offline Navigation]: No alerts shown for loss of network connectivity.
 
 [Summary]
  Loss of connection while navigating through the app still works, however 
  the background map is no longer loaded and no alerts are displayed.
 
 [Precondition]
- Software version: v2.1 Beta
+ Software version: v2.1
  Software configuration: Reporting module enabled
  Hardware specifications: Huawei P30
  Network configuration: Connected to WiFi / no internet connection
@@ -31,13 +31,13 @@ NaVSU v1.0 Functional [Offline Navigation]: No alerts shown for loss of network 
  1. Specification issue
 
 [Likelihood: How often will a customer/user use this feature/function?]
- 8. Very often
+ 8. High
 
 [Repeatability: Is this problem easily reproducible?]
  10. 100% Reproducible
 
 [Impacted Test Cases]
- REWU-004
+ CONN-002
 
 [Impact Sizing (in days)]
  Less than a day
