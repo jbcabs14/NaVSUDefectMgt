@@ -1,4 +1,4 @@
-NaVSU v1.0 Functional [Rewards]: "Error or dialog" does not appear on clicking redeem points with insufficient balance
+NaVSU v1.0 Functional [Rewards]: No error or dialog box appears after tapping redeem points with insufficient points
 
 [Summary]
  Redeem button on rewards screen with insufficient balance does not display any dialog or error message. The redeem button is set as disabled instead.
@@ -11,7 +11,8 @@ NaVSU v1.0 Functional [Rewards]: "Error or dialog" does not appear on clicking r
 
 [Steps to reproduce]
  1. Tap "Redeem rewards" from menu.
- 2. Tap disabled "Redeem" button.
+ 2. Ensure available points is less than required points for reward.
+ 3. Tap disabled "Redeem" button.
 
 [Actual results]
  Nothing happens
