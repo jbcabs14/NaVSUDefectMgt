@@ -25,7 +25,7 @@ NaVSU v1.0 Functional [Offline Navigation]: No alerts shown for loss of network 
  No, new implementation
 
 [Previous code tested]
- ZN.020.001
+ ZN.010.002
 
 [Severity: How does this problem impact the customer/user?]
  1. Specification issue
